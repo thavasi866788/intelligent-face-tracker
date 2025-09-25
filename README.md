@@ -74,4 +74,3 @@ SELECT COUNT(*) FROM faces;
 SELECT event_type, face_id, timestamp, image_path FROM events ORDER BY timestamp;
 ```
 
-This project is a part of a hackathon run by https://katomaran.com
