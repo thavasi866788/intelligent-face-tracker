@@ -1,4 +1,3 @@
-# intelligent-face-tracker
 ## Intelligent Face Tracker with Auto-Registration and Visitor Counting
 
 This project detects, tracks, recognizes, and auto-registers faces from a video or RTSP stream. It logs entry and exit events with cropped face images, timestamps, and stores metadata in SQLite.

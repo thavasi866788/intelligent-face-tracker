@@ -1,0 +1,35 @@
+﻿{
+    "input":  {
+                  "source":  "camera",
+                  "video_path":  "sample.mp4",
+                  "rtsp_url":  "rtsp://your-real-camera-ip:554/stream"
+              },
+    "detection":  {
+                      "yolo_face_model":  "data/yolov8n-face.pt",
+                      "conf_threshold":  0.4,
+                      "iou_threshold":  0.5,
+                      "frame_skip":  2
+                  },
+    "tracking":  {
+                     "max_age":  30,
+                     "n_init":  2,
+                     "max_cosine_distance":  0.2,
+                     "nn_budget":  100
+                 },
+    "recognition":  {
+                        "embedding_model":  "arcface_r100_v1",
+                        "similarity_threshold":  0.45,
+                        "min_face_size":  32
+                    },
+    "storage":  {
+                    "base_dir":  "logs",
+                    "images_subdir":  "images",
+                    "entries_subdir":  "entries",
+                    "exits_subdir":  "exits",
+                    "db_path":  "data/events.db"
+                },
+    "logging":  {
+                    "log_file":  "logs/events.log",
+                    "level":  "INFO"
+                }
+}

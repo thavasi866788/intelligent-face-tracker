@@ -1,0 +1,88 @@
+2025-09-25 23:14:32.035 | INFO     | src.detector:ensure_model:11 - Downloading YOLO face model to data\yolov8n-face.pt ...
+2025-09-25 23:17:32.078 | INFO     | src.detector:ensure_model:11 - Downloading YOLO face model to data\yolov8n-face.pt ...
+2025-09-25 23:19:15.775 | INFO     | src.detector:ensure_model:11 - Downloading YOLO face model to data\yolov8n-face.pt ...
+2025-09-25 23:21:43.658 | INFO     | src.detector:_try_download:14 - Downloading YOLO face model from https://huggingface.co/keremberke/yolov8n-face/resolve/main/yolov8n-face.pt?download=true ...
+2025-09-25 23:21:44.260 | WARNING  | src.detector:_try_download:18 - Download failed from https://huggingface.co/keremberke/yolov8n-face/resolve/main/yolov8n-face.pt?download=true: HTTP Error 401: Unauthorized
+2025-09-25 23:21:44.262 | INFO     | src.detector:_try_download:14 - Downloading YOLO face model from https://github.com/akanametov/yolov8-face/raw/main/weights/yolov8n-face.pt ...
+2025-09-25 23:21:45.624 | WARNING  | src.detector:_try_download:18 - Download failed from https://github.com/akanametov/yolov8-face/raw/main/weights/yolov8n-face.pt: HTTP Error 404: Not Found
+2025-09-25 23:22:51.085 | INFO     | src.detector:_try_download:14 - Downloading YOLO face model from https://huggingface.co/keremberke/yolov8n-face/resolve/main/yolov8n-face.pt?download=true ...
+2025-09-25 23:22:51.624 | WARNING  | src.detector:_try_download:18 - Download failed from https://huggingface.co/keremberke/yolov8n-face/resolve/main/yolov8n-face.pt?download=true: HTTP Error 401: Unauthorized
+2025-09-25 23:22:51.625 | INFO     | src.detector:_try_download:14 - Downloading YOLO face model from https://github.com/akanametov/yolov8-face/raw/main/weights/yolov8n-face.pt ...
+2025-09-25 23:22:52.155 | WARNING  | src.detector:_try_download:18 - Download failed from https://github.com/akanametov/yolov8-face/raw/main/weights/yolov8n-face.pt: HTTP Error 404: Not Found
+2025-09-25 23:43:11.865 | WARNING  | src.recognizer:__init__:31 - Failed to load InsightFace model arcface_r100_v1: Model returned None
+2025-09-25 23:43:11.866 | WARNING  | src.recognizer:__init__:32 - Falling back to dummy embeddings (recognition disabled)
+2025-09-25 23:43:16.815 | ERROR    | __main__:main:30 - Failed to open video source.
+2025-09-25 23:44:49.041 | WARNING  | src.recognizer:__init__:31 - Failed to load InsightFace model arcface_r100_v1: Model returned None
+2025-09-25 23:44:49.042 | WARNING  | src.recognizer:__init__:32 - Falling back to dummy embeddings (recognition disabled)
+2025-09-25 23:44:53.205 | ERROR    | __main__:main:30 - Failed to open video source.
+2025-09-25 23:47:19.263 | WARNING  | src.recognizer:__init__:31 - Failed to load InsightFace model arcface_r100_v1: Model returned None
+2025-09-25 23:47:19.264 | WARNING  | src.recognizer:__init__:32 - Falling back to dummy embeddings (recognition disabled)
+2025-09-25 23:47:20.855 | INFO     | __main__:main:33 - Starting processing...
+2025-09-25 23:47:20.856 | INFO     | src.pipeline:process_stream:51 - Loaded 0 known embeddings from DB.
+2025-09-25 23:48:08.007 | WARNING  | src.recognizer:__init__:31 - Failed to load InsightFace model arcface_r100_v1: Model returned None
+2025-09-25 23:48:08.007 | WARNING  | src.recognizer:__init__:32 - Falling back to dummy embeddings (recognition disabled)
+2025-09-25 23:48:10.192 | INFO     | __main__:main:33 - Starting processing...
+2025-09-25 23:48:10.192 | INFO     | src.pipeline:process_stream:51 - Loaded 0 known embeddings from DB.
+2025-09-25 23:49:06.782 | WARNING  | src.recognizer:__init__:31 - Failed to load InsightFace model arcface_r100_v1: Model returned None
+2025-09-25 23:49:06.783 | WARNING  | src.recognizer:__init__:32 - Falling back to dummy embeddings (recognition disabled)
+2025-09-25 23:49:08.867 | INFO     | __main__:main:35 - Starting processing...
+2025-09-25 23:49:08.868 | INFO     | src.pipeline:process_stream:51 - Loaded 0 known embeddings from DB.
+2025-09-25 23:50:23.955 | WARNING  | src.recognizer:__init__:31 - Failed to load InsightFace model arcface_r100_v1: Model returned None
+2025-09-25 23:50:23.956 | WARNING  | src.recognizer:__init__:32 - Falling back to dummy embeddings (recognition disabled)
+2025-09-25 23:50:26.690 | ERROR    | __main__:main:32 - Failed to open video source.
+2025-09-25 23:53:52.748 | WARNING  | src.recognizer:__init__:31 - Failed to load InsightFace model arcface_r100_v1: Model returned None
+2025-09-25 23:53:52.748 | WARNING  | src.recognizer:__init__:32 - Falling back to dummy embeddings (recognition disabled)
+2025-09-25 23:53:54.991 | INFO     | __main__:main:35 - Starting processing...
+2025-09-25 23:53:54.992 | INFO     | src.pipeline:process_stream:51 - Loaded 0 known embeddings from DB.
+2025-09-25 23:55:49.489 | WARNING  | src.recognizer:__init__:31 - Failed to load InsightFace model arcface_r100_v1: Model returned None
+2025-09-25 23:55:49.489 | WARNING  | src.recognizer:__init__:32 - Falling back to dummy embeddings (recognition disabled)
+2025-09-25 23:55:51.371 | INFO     | __main__:main:35 - Starting processing...
+2025-09-25 23:55:51.373 | INFO     | src.pipeline:process_stream:51 - Loaded 0 known embeddings from DB.
+2025-09-25 23:56:48.815 | WARNING  | src.recognizer:__init__:31 - Failed to load InsightFace model arcface_r100_v1: Model returned None
+2025-09-25 23:56:48.816 | WARNING  | src.recognizer:__init__:32 - Falling back to dummy embeddings (recognition disabled)
+2025-09-25 23:56:50.842 | INFO     | __main__:main:35 - Starting processing...
+2025-09-25 23:56:50.843 | INFO     | src.pipeline:process_stream:51 - Loaded 0 known embeddings from DB.
+2025-09-25 23:58:47.433 | WARNING  | src.recognizer:__init__:31 - Failed to load InsightFace model arcface_r100_v1: Model returned None
+2025-09-25 23:58:47.434 | WARNING  | src.recognizer:__init__:32 - Falling back to dummy embeddings (recognition disabled)
+2025-09-25 23:58:49.354 | INFO     | __main__:main:35 - Starting processing...
+2025-09-25 23:58:49.355 | INFO     | src.pipeline:process_stream:51 - Loaded 0 known embeddings from DB.
+2025-09-26 00:03:16.945 | WARNING  | src.recognizer:__init__:31 - Failed to load InsightFace model arcface_r100_v1: Model returned None
+2025-09-26 00:03:16.946 | WARNING  | src.recognizer:__init__:32 - Falling back to dummy embeddings (recognition disabled)
+2025-09-26 00:03:19.034 | INFO     | __main__:main:35 - Starting processing...
+2025-09-26 00:03:19.035 | INFO     | src.pipeline:process_stream:51 - Loaded 0 known embeddings from DB.
+2025-09-26 00:04:00.166 | WARNING  | src.recognizer:__init__:31 - Failed to load InsightFace model arcface_r100_v1: Model returned None
+2025-09-26 00:04:00.167 | WARNING  | src.recognizer:__init__:32 - Falling back to dummy embeddings (recognition disabled)
+2025-09-26 00:04:02.171 | INFO     | __main__:main:35 - Starting processing...
+2025-09-26 00:04:02.173 | INFO     | src.pipeline:process_stream:51 - Loaded 0 known embeddings from DB.
+2025-09-26 00:06:36.388 | WARNING  | src.recognizer:__init__:31 - Failed to load InsightFace model arcface_r100_v1: Model returned None
+2025-09-26 00:06:36.388 | WARNING  | src.recognizer:__init__:32 - Falling back to dummy embeddings (recognition disabled)
+2025-09-26 00:06:38.311 | INFO     | __main__:main:35 - Starting processing...
+2025-09-26 00:06:38.312 | INFO     | src.pipeline:process_stream:51 - Loaded 0 known embeddings from DB.
+2025-09-26 00:07:14.579 | WARNING  | src.recognizer:__init__:31 - Failed to load InsightFace model arcface_r100_v1: Model returned None
+2025-09-26 00:07:14.579 | WARNING  | src.recognizer:__init__:32 - Falling back to dummy embeddings (recognition disabled)
+2025-09-26 00:07:16.393 | INFO     | __main__:main:35 - Starting processing...
+2025-09-26 00:07:16.393 | INFO     | src.pipeline:process_stream:51 - Loaded 0 known embeddings from DB.
+2025-09-26 00:10:47.031 | WARNING  | src.recognizer:__init__:31 - Failed to load InsightFace model arcface_r100_v1: Model returned None
+2025-09-26 00:10:47.032 | WARNING  | src.recognizer:__init__:32 - Falling back to dummy embeddings (recognition disabled)
+2025-09-26 00:10:50.564 | INFO     | __main__:main:35 - Starting processing...
+2025-09-26 00:10:50.565 | INFO     | src.pipeline:process_stream:51 - Loaded 0 known embeddings from DB.
+2025-09-26 00:15:46.471 | WARNING  | src.recognizer:__init__:31 - Failed to load InsightFace model arcface_r100_v1: Model returned None
+2025-09-26 00:15:46.471 | WARNING  | src.recognizer:__init__:32 - Falling back to dummy embeddings (recognition disabled)
+2025-09-26 00:15:49.423 | INFO     | __main__:main:35 - Starting processing...
+2025-09-26 00:15:49.423 | INFO     | src.pipeline:process_stream:51 - Loaded 0 known embeddings from DB.
+2025-09-26 00:26:41.104 | WARNING  | src.recognizer:__init__:31 - Failed to load InsightFace model arcface_r100_v1: Model returned None
+2025-09-26 00:26:41.104 | WARNING  | src.recognizer:__init__:32 - Falling back to dummy embeddings (recognition disabled)
+2025-09-26 00:26:43.750 | INFO     | __main__:main:35 - Starting processing...
+2025-09-26 00:26:43.750 | INFO     | src.pipeline:process_stream:51 - Loaded 0 known embeddings from DB.
+2025-09-26 00:28:57.048 | WARNING  | src.recognizer:__init__:31 - Failed to load InsightFace model arcface_r100_v1: Model returned None
+2025-09-26 00:28:57.048 | WARNING  | src.recognizer:__init__:32 - Falling back to dummy embeddings (recognition disabled)
+2025-09-26 00:28:59.155 | INFO     | __main__:main:35 - Starting processing...
+2025-09-26 00:28:59.156 | INFO     | src.pipeline:process_stream:51 - Loaded 0 known embeddings from DB.
+2025-09-26 00:31:18.378 | WARNING  | src.recognizer:__init__:31 - Failed to load InsightFace model arcface_r100_v1: Model returned None
+2025-09-26 00:31:18.378 | WARNING  | src.recognizer:__init__:32 - Falling back to dummy embeddings (recognition disabled)
+2025-09-26 00:31:20.376 | INFO     | __main__:main:35 - Starting processing...
+2025-09-26 00:31:20.377 | INFO     | src.pipeline:process_stream:51 - Loaded 0 known embeddings from DB.
+2025-09-26 00:37:48.307 | WARNING  | src.recognizer:__init__:31 - Failed to load InsightFace model arcface_r100_v1: Model returned None
+2025-09-26 00:37:48.307 | WARNING  | src.recognizer:__init__:32 - Falling back to dummy embeddings (recognition disabled)
+2025-09-26 00:37:51.996 | INFO     | __main__:main:35 - Starting processing...
+2025-09-26 00:37:51.997 | INFO     | src.pipeline:process_stream:51 - Loaded 0 known embeddings from DB.
